@@ -1,0 +1,102 @@
+.container {
+    max-width: 1170px;
+    padding: 0;
+}
+
+.upper-container {
+    /* max-height: 100vh; */
+    margin-top: 30px;
+}
+
+.lower-container {
+    background-color: #f7931e;
+    height: 100vh;
+}
+
+.header {
+    text-align: left;
+}
+
+.character-title {
+    color: #0071bc;
+    font-weight: bold;
+}
+
+.character-acknowlegde {
+    color: #0071bc;
+    font-weight: normal;
+}
+
+.character-description {
+    color: #4d4d4d;
+}
+
+.character-release-notice {
+    color: #ed1e79;
+    font-weight: bold;
+}
+
+.register-button {
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #93278f;
+}
+
+.button-position {
+    text-align: left;
+ }
+
+.hero-image img {
+    margin-top: 5%;
+    width: 100%
+}
+
+/* .hero-image {
+    background-image: url("/assets/img/vinyl-nickelodeon-nick-90s-blind-box-mini-series-5_2048x.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+} */
+
+.collection-of-toys {
+    padding: 0;
+    text-align: center;
+}
+
+#mooshai-logo {
+    width: 40%;
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        text-align: center;
+    }
+
+    #mooshai-logo {
+        width: 60%;
+    }
+
+    .character-release-notice {
+        text-align: center;
+    }
+
+    .button-position {
+       text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    #mooshai-logo {
+        width: 100%;
+    }
+}
