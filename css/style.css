@@ -75,6 +75,50 @@ body {
     width: 40%;
 }
 
+#mc_embed_signup {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: silver;
+    padding: 30px;
+    margin-top: 10%;
+    padding: 30px;
+    text-align: center;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+
+#mc_embed_signup h2 {
+    margin: 0;
+    color: #ed1e79;
+    font-weight: bold;
+}
+
+#mc_embed_signup p {
+    margin-top: 20px;
+}
+
+#mc_embed_signup input {
+    width: 100%;
+    margin: 15px 0;
+    height: 40px;
+}
+
+#mc_embed_signup input::placeholder {
+    color: #00944f;
+    padding-left: 10px;
+}
+
+#mc_embed_signup .button {
+    background-color: #0070bd;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+
+#mce-error-response {
+    background-color: #ed1e79;
+}
+
 @media (max-width: 992px) {
     .container {
         width: 95%;
